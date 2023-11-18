@@ -1,0 +1,192 @@
+@media (max-width: 1200px){
+    .promo{
+        background: url('../../img/bg.png') center (left/cover) no-repeat;
+    }
+    .carousel {
+        padding: 81px 0;
+        &__inner {
+            position: relative;
+            width:650px;
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 992px){
+    .promo{
+        padding-right: 15px;
+    }
+}
+@media (max-width: 768px){
+    .promo{
+        .header{
+            &__logo{
+                width: 197px;
+            }
+        }
+    }
+    .carousel {
+        padding: 81px 0;
+        &__inner {
+            position: relative;
+            width:400px;
+            margin: 0 auto;
+        }
+        .container {
+            button {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+    .slick-prev {
+        display: none;
+    }
+    .advantages{
+        &__line {
+            display: block;
+            width: 150px;
+            height: 15px;
+            background-color: $main-color;
+            margin-top: 50px;
+            border-radius: 20px;
+            background: gold;
+            box-shadow: 0 -200px 100px -120px crimson inset;
+            animation: background 3s infinite alternate;
+        }
+        @keyframes background {
+            50% {
+              background: skyblue;
+              box-shadow: 0 -200px 100px -100px yellowgreen inset;
+            }
+        }
+        &__wrapper {
+            display: block;
+            
+        }
+         &__item {
+            justify-content: center;
+            align-items: center;
+            margin: 40px auto;
+            text-align: center;
+        }
+    }
+    .catalog {
+        justify-content: space-evenly;
+        .container {
+            .catalog__tabs {
+                .catalog__tab {
+                    width: 150px;
+                    div {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .catalog__content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .catalog__content_active {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 768px){
+    .promo {
+        .header__official {
+            span {
+                font-size: 15px;
+            }
+        }
+        .header__phone {
+            font-size: 15px;
+        }
+        button {
+            width: 145px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__icon {
+            transform: translateX(17px);
+        }
+        .button_main{
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .catalog {
+        justify-content: space-evenly;
+        .container {
+            .catalog__tabs {
+                .catalog__tab {
+                    width: 120px;
+                    div {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .catalog-item {
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .fao {
+        .antw {
+            display: block;
+            .antw__irirna{
+                display: block;
+                margin-left: 0;
+                img{
+                    display: block;
+                    align-items: center;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+            }
+            .antw__ivan{
+                display: block;
+                margin-left: 0;
+                img{
+                    display: block;
+                    align-items: center;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+            }
+            .antw__ula{
+                display: block;
+                margin-left: 0;
+                img{
+                    display: block;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .footer{
+        .footer__info {
+            width: 360px;
+            height: 250px;
+        }
+    }
+}
+@media (max-width: 410px){
+    .carousel {
+        display: none;
+    }
+}

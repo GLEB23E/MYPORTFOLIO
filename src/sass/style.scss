@@ -1,0 +1,25 @@
+@import "base/variables";
+@import "base/animations"; 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header"; 
+@import "blocks/buttons"; 
+@import "blocks/betters"; 
+@import "blocks/titles"; 
+@import "base/media"; 
+@import "blocks/consultation"; 
+@import "blocks/forms"; 
+@import "blocks/carousel"; 
+@import "blocks/catalog"; 
+@import "blocks/loading"; 
+@import "blocks/antw"; 
+@import "blocks/footer"; 
+@import "blocks/modal"; 
+@import "blocks/pageup"; 

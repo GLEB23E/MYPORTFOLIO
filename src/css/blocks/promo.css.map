@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACH,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,aAAa;EACtB,UAAU,EAAE,qDAAuD",
+"sources": ["../../sass/blocks/promo.scss"],
+"names": [],
+"file": "promo.css"
+}
